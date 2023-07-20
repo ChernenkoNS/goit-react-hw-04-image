@@ -22,7 +22,6 @@ export const Searchbar = ({ handleValueSubmit }) => {
         <button className={css.SearchFormButton} type="submit">
           <span className={css.SearchFormButtonLabel}>Search</span>
         </button>
-
         <input
           className={css.SearchFormInput}
           type="text"
