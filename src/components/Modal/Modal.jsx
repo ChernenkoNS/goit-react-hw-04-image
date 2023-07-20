@@ -20,6 +20,7 @@ export const Modal = ({ selectedImage, onClose }) => {
   );
 };
 
+
 Modal.propTypes = {
   selectedImage: PropTypes.string.isRequired,
   onClose: PropTypes.func.isRequired,
